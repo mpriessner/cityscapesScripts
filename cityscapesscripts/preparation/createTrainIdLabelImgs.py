@@ -26,7 +26,7 @@ import os, glob, sys
 # cityscapes imports
 from cityscapesscripts.helpers.csHelpers import printError
 from cityscapesscripts.preparation.json2labelImg import json2labelImg
-os.environ["CITYSCAPES_DATASET"] = "/content/download_data"
+os.environ["CITYSCAPES_DATASET"] = "/content/cityscapes"
 
 # The main method
 def main():
