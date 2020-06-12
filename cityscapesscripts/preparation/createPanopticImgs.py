@@ -21,7 +21,7 @@ import sys
 import argparse
 import json
 import numpy as np
-os.environ["CITYSCAPES_DATASET"] = "/content/download_data"
+os.environ["CITYSCAPES_DATASET"] = "/content/cityscapes"
 
 # Image processing
 from PIL import Image
